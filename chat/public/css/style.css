@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #login,
+  #signup,
+  #chat,
+  #main-screen {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #dd9090;
+    border-radius: 5px;
+    background-color: #fd5656;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #74f679;
+    color: rgb(191, 39, 39);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #450eda;
+  }
+  
+  #chat,
+  #main-screen {
+    display: none;
+  }
+  
+  #messages,
+  #friends-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #messages li,
+  #friends-list li {
+    margin-bottom: 10px;
+  }
+  

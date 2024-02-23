@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Chat Room</title>
+</head>
+<body>
+  <div id="login">
+    <h1>Login</h1>
+    <form id="login-form">
+      <input type="text" id="username" placeholder="Username" required>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+  <div id="signup">
+    <h1>Sign Up</h1>
+    <form id="signup-form">
+      <input type="text" id="new-username" placeholder="New Username" required>
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.2.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.2.0/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/socket.io@4.0.0/dist/socket.io.js"></script>
+  <script src="js/firebase-config.js"></script>
+  <script src="js/login-signup.js"></script>
+</body>
+</html>
